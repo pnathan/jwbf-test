@@ -1,23 +1,13 @@
 package opw.jwbf.app;
 
-/**
- * Hello world!
- *
- */
-//public class App 
-//{
-//    public static void main( String[] args )
-//    {
-//        System.out.println( "Hello World!" );
-//    }
-//}
 import net.sourceforge.jwbf.mediawiki.bots.MediaWikiBot;
 import net.sourceforge.jwbf.core.contentRep.Article;
 
 public class JavaBot {
 
 /** 
- * Sample bot that retrieves and edits an article
+ * Sample bot that retrieves and edits an article. 
+ * Sample code from the JWBF README. 
  */
   public static void main(String[] args) {
     System.out.println("Hello JWBF!");
